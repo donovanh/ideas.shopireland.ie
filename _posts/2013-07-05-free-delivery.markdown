@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "You too can get deliveries for free"
+title: "Yes, you too can get free delivery"
 description: "Don't pay for delivery. We show you how you could save a fortune, and get your stuff delivered to the door for free."
 tags: [delivery, popular]
 imageURL: free-shipping/u2-stamp.jpg

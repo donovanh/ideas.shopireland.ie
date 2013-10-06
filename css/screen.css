@@ -6628,6 +6628,19 @@ img {
     font-size: 22px;
   }
 }
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
 aside.sidebar img.shopireland {
   margin: 36px 0 10px;
 }
