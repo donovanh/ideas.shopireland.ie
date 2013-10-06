@@ -101,11 +101,32 @@ aside.sidebar
     margin: 36px 0 12px
     background: #fff
     background: rgba(255,255,255,0.8)
-    padding: 20px
+    padding: 22px 22px 12px
     border: 2px solid #eee
+
+    img.headline
+      display: block
+      float: left
+      margin: 0 22px 0 0
+
+    .entry img
+      width: 110%
+      width: calc(100% + 44px)
+      margin: 22px 0 22px -22px
+      border-top: 2px solid #eee
+      border-bottom: 2px solid #eee
+      opacity: 0.6
+      +transition(all 0.2s)
+
+      &:hover
+        opacity: 1
+        +transition(all 0.2s)
 
     h1
       margin-top: 0
+
+    p.date
+      color: #888
 
 
 footer

@@ -1,4 +1,4 @@
 permalink: /:title
 pygments: true
-paginate: 10 # the number of post per page
+paginate: 5 # the number of post per page
 

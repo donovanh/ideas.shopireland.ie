@@ -6,12 +6,12 @@ bodyTag: home
 
 {% for post in paginator.posts %}
 	
-    <article>
+    <article class="homepage post">
 
     	<header>
         <a href="{{ post.url }}">
           {% if post.imageURL %} 
-            <img src="/images/home/{{post.imageURL}}" alt="{{ post.description }}" class="{{ post.cornerStyle }}">
+            <img src="/images/posts/{{post.imageURL}}" alt="{{ post.description }}" class="{{ post.cornerStyle }}">
           {% endif %}
       	  <h1>{{ post.title }}</h1>
         </a>
@@ -26,12 +26,15 @@ bodyTag: home
 <nav class="pagination">
   {% if paginator.previous_page %}
     {% if paginator.previous_page == 1 %}
-      <a href="/" class="previous">&laquo;</a>
+      <a href="/" class="previous">&laquo; Previous</a>
     {% else %}
-      <a href="/page{{paginator.previous_page}}" class="previous">&laquo;</a>
+      <a href="/page{{paginator.previous_page}}" class="previous">&laquo; Previous</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      - 
     {% endif %}
   {% endif %}
   {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="next ">&raquo;</a>
+    <a href="/page{{paginator.next_page}}" class="next">Next &raquo;</a>
   {% endif %}
 </nav>

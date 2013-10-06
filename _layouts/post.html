@@ -5,7 +5,10 @@ layout: default
 <article>
 
 	<header class="post">
-	  <h1 id="responsive_headline">{{ page.title }}</h1>
+	  {% if page.imageURL %} 
+	    <img src="/images/posts/{{page.imageURL}}" alt="{{ page.description }}" class="{{ page.cornerStyle }} headline">
+	  {% endif %}
+      <h1 id="responsive_headline">{{ page.title }}</h1>
 	  <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
 	</header>
 
@@ -15,29 +18,4 @@ layout: default
   </section>
 
 </article>
-
-<!-- AddThis Smart Layers BEGIN -->
-<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52518b4f5c09ca29"></script>
-<script type="text/javascript">
-addthis.layers({
-  'theme' : 'transparent',
-  'share' : {
-    'position' : 'left',
-    'numPreferredServices' : 3
-  }, 
-  'follow' : {
-    'services' : [
-      {'service': 'facebook', 'id': 'shopireland'},
-      {'service': 'twitter', 'id': 'shopirel'}
-    ]
-  },  
-  'whatsnext' : {},  
-  'recommended' : {
-    'title': 'Don\'t miss:'
-  }
-  
-});
-</script>
-<!-- AddThis Smart Layers END -->
 
