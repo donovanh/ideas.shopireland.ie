@@ -1,27 +1,16 @@
-/* @import compass/reset
-@import vendor/lessismore/default
 @import compass/utilities
 @import compass 
-@import compass/typography/vertical_rhythm
 @import compass/css3
 @import mixins
 @import pygments
 
-/* Rhythm defaults
-
-$base-font-size: 20px
-$base-line-height: 36px
-$default-rhythm-border-style: dashed
-/* Hit me with the rhythm stick
-@include establish-baseline
-
 /* Colours
 $font-color: #2c3437
 $footer-font-color: #fff
-$background-color: #fafafe
-$link-color: #fe0088
-$link-color-visited: #b4186c
-$hover-color: #ff1c7c
+$background-color: #f6f6f6
+$link-color: #fc7404
+$link-color-visited: #fc7404
+$hover-color: #bf4303
 $code_bg_color: #ffffff
 $border-color: #ffffff
 
@@ -30,3 +19,10 @@ $default-text-shadow-color: #fff
 $default-text-shadow-h-offset: 0
 $default-text-shadow-v-offset: -1px
 $default-text-shadow-blur: 0
+
+/* Bootstrap overrides
+$font-size-base: 18px
+@import vendor/bootstrap
+
+/* Seasonal Themes
+@import themes/halloween

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Donovan's blog
+title: Shop Ireland blog
 bodyTag: home
 ---
 
@@ -12,12 +12,11 @@ bodyTag: home
         <a href="{{ post.url }}">
           {% if post.imageURL %} 
             <img src="/images/home/{{post.imageURL}}" alt="{{ post.description }}" class="{{ post.cornerStyle }}">
-          {% else %}
-            <img src="/images/home/default.png" alt="{{ post.description }}" class="{{ post.cornerStyle }}">
           {% endif %}
       	  <h1>{{ post.title }}</h1>
         </a>
-    	  <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p>{{ post.description }}</p>
     	</header>
     </article>
 
