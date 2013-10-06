@@ -9,7 +9,7 @@ published: true
 
 Amazon are currently offering free delivery on some orders over here in Ireland, where the streets barely have a name.
 
-### Super Saver Free Shipping
+### Super Saver Free Shippin
 
 It's a bit of a mouthful but this is the name Amazon gives to their free shipping option. To take advantage of this offer, you need to have about €30 of stuff being bought at the same time.
 
