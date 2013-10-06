@@ -1,4 +1,4 @@
-permalink: /blog/:title
+permalink: /:title
 pygments: true
 paginate: 10 # the number of post per page
 
