@@ -1,0 +1,57 @@
+/*
+ * Include Mixins. Review mixins file for notes on what the mixins do.
+ */
+
+ @import "mixins";
+
+/* 
+ * Unlike many grid systems, the number of the column relates to the denominator of the fraction represented by the column.
+ * To this end, .col2 is a half, .col3 is a third, .col4 is a quarter, etc.
+ * Personally, I've never used more than a 4 column layout, so I've gone to 5.
+ * Following this lead, it should be easy for you to add columns, should you so need.
+ *
+ * I've also eschewed the 960 grid for a 1200. Not sure if this is a wise choice... Feedback welcome.
+ *
+ * Also leading off with a mobile first template. To this end, everything is the same width.
+ */
+
+ /* Full page wrapper. Used to use body, but can limit inside component widths too much. Still use it sometimes! */
+body, .wrapper,.full {width:100%; float:left;}
+
+.container {margin:0 3.125%;width:93.75%;	/* Good universal size. @320 makes col 300. @480 makes col 450. @600 makes col 562.5 (the only real odd one). @800 makes col 750. @960 makes col 900. */
+	@include mq(960px) {
+		margin:0 auto;padding:0 3.125%;max-width:960px;
+	}
+	@include mq(1200px) {
+		padding:0 2.5%;max-width:1200px;
+	}
+} 
+
+.col1, .col2, .col3, .col4, .col5 {margin:0; padding:0; float:left;display:inline-block;width:100%;} /* if required: , .col6, .col7, .col8, .col9, .col10, .col11, .col12 */
+
+
+.col2 { 
+	@include mq(480px) {
+		margin-right:3.3333333%;width:48.3333333%; /* 223px col w/ 15px space @480px */
+		@include lastChild;
+	}
+}
+
+.col3 {
+	@include mq(600px) {
+		margin-right:3.3333333%;width:31.1111111%; /* 175px col w/ 18.75px space @600px */
+		@include lastChild;	
+	}
+}
+
+.col4 {
+	@extend .col2; /* below 480, act like a 2 col layout */
+	@include mqmm(480px,800px) {
+		@include splitChild(2);
+	}
+	@include mq(800px) {
+		margin-right:3.3333333%;width:22.5%; /* 168.75px col w/ 25px space @800px */
+		@include lastChild();
+	}
+}
+

@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Hop.ie - Donovan Hutchinson</title>
+ <link href="http://hop.ie/atom.xml" rel="self"/>
+ <link href="http://hop.ie/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://hop.ie/</id>
+ <author>
+   <name>Donovan Hutchinson</name>
+   <email>d@hop.ie</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://hop.ie{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://hop.ie{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+ 
+</feed>
