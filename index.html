@@ -11,7 +11,7 @@ bodyTag: home
     	<header>
         <a href="{{ post.url }}">
           {% if post.imageURL %} 
-            <img src="/images/posts/{{post.imageURL}}" alt="{{ post.description }}" class="{{ post.cornerStyle }}">
+            <img src="/images/posts/{{post.imageURL}}" alt="{{ post.description }}" class="{{ post.cornerStyle }} headline">
           {% endif %}
       	  <h1>{{ post.title }}</h1>
         </a>
