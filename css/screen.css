@@ -6627,6 +6627,10 @@ img {
   h3 {
     font-size: 22px;
   }
+
+  .main-header {
+    background-size: 200%;
+  }
 }
 @media screen and (max-width: 320px) {
   h1 {
