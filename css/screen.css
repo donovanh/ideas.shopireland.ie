@@ -6690,6 +6690,21 @@ aside.sidebar ul {
 .container.content article p.date {
   color: #888888;
 }
+.container.content .article-signoff {
+  text-align: center;
+  padding: 22px;
+  background: #333333;
+  color: white;
+  margin: 36px -22px 36px -22px;
+}
+.container.content .article-signoff h3 {
+  padding: 0;
+  margin: 0;
+}
+.container.content .article-signoff a {
+  color: white;
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 480px) {
   img.headline {
