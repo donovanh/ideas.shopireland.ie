@@ -6675,14 +6675,6 @@ aside.sidebar ul {
   margin: 22px 0 22px -22px;
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
-  opacity: 0.6;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-.container.content article .entry img:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
 }
 .container.content article h1 {
   margin-top: 0;
@@ -6717,4 +6709,8 @@ footer {
   background: #333333;
   padding: 40px 0;
   color: #f9f9f9;
+}
+
+div#at4-share {
+  margin-top: 40px !important;
 }
