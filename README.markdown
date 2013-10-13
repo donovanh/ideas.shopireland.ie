@@ -1,8 +1,8 @@
-Hop.ie
+Blog.ShopIreland.ie
 ======
 
-Random thoughts and updates as I go through the journey of creating and deploying web things. I can be contacted at [@donovanh](http://twitter.com/donovanh) or d@hop.ie.
+Updates and news relating to shopping in Ireland.
 
-This site is running on [Jekyll](http://jekyllrb.org) and [Github Pages](http://pages.github.com).
+This site is running on [Jekyll](http://jekyllrb.org) and [Github Pages](http://pages.github.com). To find out how to do this yourself, check out the [blog in a day](http://hop.ie/blog/blog-in-a-day-1) article.
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License) applies.
