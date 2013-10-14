@@ -6668,13 +6668,20 @@ aside.sidebar ul {
   float: left;
   margin: 0 22px 0 0;
 }
-.container.content article .entry img {
+.container.content article .entry img, .container.content article .shortened-image {
   width: 110%;
   max-width: calc(100% + 44px);
   width: calc(100% + 44px);
   margin: 22px 0 22px -22px;
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
+}
+.container.content article .shortened-image {
+  height: 220px;
+  overflow: hidden;
+  background-position: center;
+  background-size: 100% auto;
+  margin-top: 44px;
 }
 .container.content article h1 {
   margin-top: 0;
