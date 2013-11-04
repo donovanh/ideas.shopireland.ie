@@ -71,7 +71,7 @@
 
 /* Generic.Inserted */
 .go {
-  color: gray;
+  color: grey;
 }
 
 /* Generic.Output */
@@ -550,8 +550,7 @@ table {
 
   @page {
     margin: 2cm .5cm;
-}
-
+  }
   p,
   h2,
   h3 {
@@ -601,7 +600,7 @@ table {
 
 html {
   font-size: 62.5%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -2601,7 +2600,6 @@ input[type="button"].btn-block {
   src: url('/css/fonts/bootstrap/glyphicons-halflings-regular.eot');
   src: url('/css/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format("embedded-opentype"), url('/css/fonts/bootstrap/glyphicons-halflings-regular.woff') format("woff"), url('/css/fonts/bootstrap/glyphicons-halflings-regular.ttf') format("truetype"), url('/css/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format("svg");
 }
-
 .glyphicon {
   position: relative;
   top: 1px;
@@ -4653,7 +4651,7 @@ input[type="button"].btn-block {
   background-color: #999999;
 }
 .label-default[href]:hover, .label-default[href]:focus {
-  background-color: gray;
+  background-color: grey;
 }
 
 .label-primary {
@@ -4875,7 +4873,6 @@ a.thumbnail:focus {
     background-position: 0 0;
   }
 }
-
 @-moz-keyframes progress-bar-stripes {
   from {
     background-position: 40px 0;
@@ -4885,7 +4882,6 @@ a.thumbnail:focus {
     background-position: 0 0;
   }
 }
-
 @-o-keyframes progress-bar-stripes {
   from {
     background-position: 0 0;
@@ -4895,7 +4891,6 @@ a.thumbnail:focus {
     background-position: 40px 0;
   }
 }
-
 @keyframes progress-bar-stripes {
   from {
     background-position: 40px 0;
@@ -4905,7 +4900,6 @@ a.thumbnail:focus {
     background-position: 0 0;
   }
 }
-
 .progress {
   overflow: hidden;
   height: 25px;
@@ -4934,7 +4928,7 @@ a.thumbnail:focus {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
   background-size: 40px 40px;
 }
 
@@ -4953,7 +4947,7 @@ a.thumbnail:focus {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 }
 
 .progress-bar-info {
@@ -4963,7 +4957,7 @@ a.thumbnail:focus {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 }
 
 .progress-bar-warning {
@@ -4973,7 +4967,7 @@ a.thumbnail:focus {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 }
 
 .progress-bar-danger {
@@ -4983,7 +4977,7 @@ a.thumbnail:focus {
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
 }
 
 .media,
@@ -5903,11 +5897,10 @@ body.modal-open {
 @-ms-viewport {
   width: device-width;
 }
-
 @media screen and (max-width: 400px) {
   @-ms-viewport {
     width: 320px;
-}
+  }
 }
 .hidden {
   display: none !important;
@@ -6507,9 +6500,10 @@ td.visible-print {
   }
 }
 /* Seasonal Themes */
-/* Spooky halloween theme */
+/*@import themes/halloween */
+/* Jolly Christmas theme */
 .main-header {
-  background: #333333 url(/images/bg/pumpkin.jpg) no-repeat;
+  background: #333333 url(/images/bg/star.jpg) no-repeat;
 }
 
 /* Extra bouncer animation */
@@ -6562,31 +6556,26 @@ td.visible-print {
     top: 300px;
   }
 }
-
 @-webkit-keyframes floatup {
   100% {
     top: 300px;
   }
 }
-
 @-o-keyframes floatup {
   100% {
     top: 300px;
   }
 }
-
 @-ms-keyframes floatup {
   100% {
     top: 300px;
   }
 }
-
 @keyframes floatup {
   100% {
     top: 300px;
   }
 }
-
 @-moz-keyframes bobbing {
   10% {
     top: 300px;
@@ -6600,7 +6589,6 @@ td.visible-print {
     top: 300px;
   }
 }
-
 @-webkit-keyframes bobbing {
   10% {
     top: 300px;
@@ -6614,7 +6602,6 @@ td.visible-print {
     top: 300px;
   }
 }
-
 @-o-keyframes bobbing {
   10% {
     top: 300px;
@@ -6628,7 +6615,6 @@ td.visible-print {
     top: 300px;
   }
 }
-
 @-ms-keyframes bobbing {
   10% {
     top: 300px;
@@ -6642,7 +6628,6 @@ td.visible-print {
     top: 300px;
   }
 }
-
 @keyframes bobbing {
   10% {
     top: 300px;
@@ -6656,11 +6641,11 @@ td.visible-print {
     top: 300px;
   }
 }
-
 @-moz-keyframes move-bouncer-404 {
   0% {
     height: 40px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
     top: 42px;
   }
@@ -6669,6 +6654,7 @@ td.visible-print {
     top: 0;
     height: 60px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6679,6 +6665,7 @@ td.visible-print {
     filter: alpha(opacity=100);
     height: 40px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -6688,6 +6675,7 @@ td.visible-print {
     filter: alpha(opacity=100);
     height: 60px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6698,6 +6686,7 @@ td.visible-print {
     filter: alpha(opacity=100);
     height: 40px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -6707,6 +6696,7 @@ td.visible-print {
     filter: alpha(opacity=100);
     height: 60px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6717,6 +6707,7 @@ td.visible-print {
     filter: alpha(opacity=100);
     height: 40px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -6726,6 +6717,7 @@ td.visible-print {
     filter: alpha(opacity=100);
     height: 60px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6736,6 +6728,7 @@ td.visible-print {
     filter: alpha(opacity=100);
     height: 40px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -6745,6 +6738,7 @@ td.visible-print {
     filter: alpha(opacity=100);
     height: 60px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6755,6 +6749,7 @@ td.visible-print {
     filter: alpha(opacity=100);
     height: 40px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -6765,6 +6760,7 @@ td.visible-print {
     filter: alpha(opacity=100);
     height: 60px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6775,10 +6771,10 @@ td.visible-print {
     filter: alpha(opacity=100);
   }
 }
-
 @-webkit-keyframes move-bouncer-404 {
   0% {
     height: 40px;
+    -moz-border-radius: 25px / 20px;
     -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
     top: 42px;
@@ -6787,6 +6783,7 @@ td.visible-print {
   5% {
     top: 0;
     height: 60px;
+    -moz-border-radius: 25px / 30px;
     -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
@@ -6797,6 +6794,7 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
     -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
@@ -6806,6 +6804,7 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
     -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
@@ -6816,6 +6815,7 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
     -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
@@ -6825,6 +6825,7 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
     -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
@@ -6835,6 +6836,7 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
     -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
@@ -6844,6 +6846,7 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
     -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
@@ -6854,6 +6857,7 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
     -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
@@ -6863,6 +6867,7 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
     -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
@@ -6873,6 +6878,7 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
     -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
@@ -6883,6 +6889,7 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
     -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
@@ -6894,10 +6901,11 @@ td.visible-print {
     filter: alpha(opacity=100);
   }
 }
-
 @-o-keyframes move-bouncer-404 {
   0% {
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
     top: 42px;
   }
@@ -6905,6 +6913,8 @@ td.visible-print {
   5% {
     top: 0;
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6914,6 +6924,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -6922,6 +6934,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6931,6 +6945,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -6939,6 +6955,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6948,6 +6966,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -6956,6 +6976,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6965,6 +6987,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -6973,6 +6997,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -6982,6 +7008,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -6991,6 +7019,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7001,10 +7031,11 @@ td.visible-print {
     filter: alpha(opacity=100);
   }
 }
-
 @-ms-keyframes move-bouncer-404 {
   0% {
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
     top: 42px;
   }
@@ -7012,6 +7043,8 @@ td.visible-print {
   5% {
     top: 0;
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7021,6 +7054,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -7029,6 +7064,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7038,6 +7075,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -7046,6 +7085,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7055,6 +7096,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -7063,6 +7106,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7072,6 +7117,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -7080,6 +7127,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7089,6 +7138,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
+    -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -7098,6 +7149,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
+    -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7108,12 +7161,11 @@ td.visible-print {
     filter: alpha(opacity=100);
   }
 }
-
 @keyframes move-bouncer-404 {
   0% {
     height: 40px;
-    -webkit-border-radius: 25px 20px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
     top: 42px;
   }
@@ -7121,8 +7173,8 @@ td.visible-print {
   5% {
     top: 0;
     height: 60px;
-    -webkit-border-radius: 25px 30px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7132,8 +7184,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
-    -webkit-border-radius: 25px 20px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -7142,8 +7194,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
-    -webkit-border-radius: 25px 30px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7153,8 +7205,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
-    -webkit-border-radius: 25px 20px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -7163,8 +7215,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
-    -webkit-border-radius: 25px 30px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7174,8 +7226,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
-    -webkit-border-radius: 25px 20px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -7184,8 +7236,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
-    -webkit-border-radius: 25px 30px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7195,8 +7247,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
-    -webkit-border-radius: 25px 20px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -7205,8 +7257,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
-    -webkit-border-radius: 25px 30px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
@@ -7216,8 +7268,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 40px;
-    -webkit-border-radius: 25px 20px;
     -moz-border-radius: 25px / 20px;
+    -webkit-border-radius: 25px 20px;
     border-radius: 25px / 20px;
   }
 
@@ -7227,8 +7279,8 @@ td.visible-print {
     opacity: 1;
     filter: alpha(opacity=100);
     height: 60px;
-    -webkit-border-radius: 25px 30px;
     -moz-border-radius: 25px / 30px;
+    -webkit-border-radius: 25px 30px;
     border-radius: 25px / 30px;
   }
 
