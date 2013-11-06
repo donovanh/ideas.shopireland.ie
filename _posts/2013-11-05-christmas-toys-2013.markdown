@@ -108,6 +108,8 @@ From the reviews:
 
 It's worth noting also that the apps on this device must be bought separately, and cost as much as €25 each, with many in the €10 range. If you are the type to buy a lot of apps, it's worth keeping in mind that there will be ongoing costs.
 
+[Buy LeapPad Ultra](http://www.shopireland.ie/toys/B00D5S9FXM/) online here.
+
 ## Doc McStuffins Doctor’s Bag Playset
 
 <a href="http://www.shopireland.ie/toys/B00BEUATCO/"><img src="http://ecx.images-amazon.com/images/I/51l0AlqbSeL._SL160_.jpg" alt="Doc McStuffins Doctor’s Bag Playset" class="left"></a>
