@@ -6581,6 +6581,10 @@ img {
   max-width: 100%;
 }
 
+blockquote {
+  clear: both;
+}
+
 /* Page structure */
 .main-header {
   margin: 0;
@@ -6666,6 +6670,11 @@ aside.sidebar ul {
   margin: 22px 0 22px -22px;
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
+}
+.container.content article .entry img.left, .container.content article .shortened-image.left {
+  width: auto;
+  margin: 20px;
+  border: none;
 }
 .container.content article .shortened-image {
   height: 220px;
