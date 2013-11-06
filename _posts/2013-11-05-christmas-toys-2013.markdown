@@ -47,7 +47,7 @@ Looks pretty good, and costs less than €20 if you buy online.
 
 <a href="http://www.shopireland.ie/toys/B00CWB0O42/"><img src="http://ecx.images-amazon.com/images/I/41-cYmUtnvL._SL160_.jpg" alt="Flutterbye Flying Flower Fairy" class="left"></a>
 
-If your kids are looking for dolls this year, these two are definitely worth grabbing online while they're available. The [Flutterbye Flying Flower Fairy](http://www.shopireland.ie/toys/B00CWB0O42/) features wings capable of carrying it's 6AA battery payload. The only downside being that the charging takes about 30 minutes and you get 2 minutes of death-defying fairy craziness.
+If your kids are looking for dolls this year, these two are definitely worth grabbing online while they're available. The [Flutterbye Flying Flower Fairy](http://www.shopireland.ie/toys/B00CWB0O42/) features wings capable of carrying it's six AA battery payload. The only downside being that the charging takes about 30 minutes and you get 2 minutes of death-defying fairy craziness.
 
 <br style="clear:both">
 
