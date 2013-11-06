@@ -92,7 +92,7 @@ If you're looking for a cut-price alternative to an iPad to entertain the little
 
 With a web browser and some education-oriented apps, this should keep the kids entertained for a while at least.
 
-However it does have some down sides. Slow performance is noted as one of the tablet's weaknesses, along with the cheap screen and mediocre battery life. Web pages take a long time to load, and lack of Flash means you'll have trouble playing Youtube videos. But hey, it's less than €100 yo-yos, so what do you expect.
+However it does have some down sides. Slow performance is noted as one of the tablet's weaknesses, along with the cheap screen and mediocre battery life. Web pages take a long time to load, and lack of Flash means you'll have trouble playing Youtube videos. But hey, it's less than 100 yo-yos.
 
 [Buy InnoTab 3S](http://www.shopireland.ie/toys/B00DE9IPBU/) and save on the listed price.
 
