@@ -7,7 +7,7 @@ imageURL: furby.jpg
 published: true
 ---
 
-With the [Dublin Toy Fair](http://www.dublintoyfair.com/) approaching later this month, thoughts are turning to this year's most popular toys. In preparation for the [Christmas shopping](http://shopireland.ie) rush. However, don't just take their word for it, some of these toys are real dogs (pun intended). Read on to find out which ones to avoid!
+With the [Dublin Toy Fair](http://www.dublintoyfair.com/) approaching later this month, thoughts are turning to this year's most popular toys. In preparation for the [Christmas shopping](http://shopireland.ie) rush. We thought we'd take a look at the top 10 and see if they're any good.
 
 ## Teksta Robotic Puppy
 
