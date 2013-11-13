@@ -17,7 +17,7 @@ One of the most anticipated releases this year is the [Sony Playstation 4](http:
 
 Along with the also-much-anticipated [Xbox One](http://www.shopireland.ie/games/B00BE4OUBG/) released later this month (November 22nd), the Playstation 4 is Sony's latest advance in living room gaming technology. It's one of those boxes you plug into the TV and run around shooting people, only this time with even more zing and pow.
 
-It's got an all-new state of the art processor, graphics cards to beat the band and 8GB of thinkin' juice. All this technology adds up to a svelte black box of Playstation 4 awesomeness that will make you one of the coolest dudes on the block.
+It's got an all-new state of the art processor, graphics cards to beat the band and 8GB of thinkin' juice. All this technology adds up to a svelte black box of Playstation 4 awesomeness that will make you one of the coolest people on the block.
 
 ## New controller
 
