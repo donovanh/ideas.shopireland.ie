@@ -33,6 +33,10 @@ Taking things further than the old controllers, these feature built-in speakers 
 
 Find out more and see it in action on the [Playstation 4 video](http://www.shopireland.ie/games/B00BE4HOIM/) section. We've assembled some great Playstation themed video to get you ready for this amazing console. Go check it out.
 
+## Find Playstation 4 games and accessories
+
+Find all the [Playstation 4 games and accessories](http://www.shopireland.ie/games/search/playstation%204/) you could ever want. Everything from [controllers](http://www.shopireland.ie/games/B00BF6D63Q/), a [Playstation 4 camera](http://www.shopireland.ie/games/B00BT9DW0Q/) and more.
+
 ## Pre-order Playstation 4 at Shop Ireland
 
 Make sure you place your [Playstation 4 pre-order](http://www.shopireland.ie/games/B00BE4HOIM/) today, as they tend to run out in the initial release and you may miss out.
