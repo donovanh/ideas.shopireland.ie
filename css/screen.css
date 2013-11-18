@@ -6654,7 +6654,7 @@ aside.sidebar ul {
 .container.content article {
   margin: 36px 0 12px;
   background: white;
-  background: rgba(255, 255, 255, 0.8);
+  background: white;
   padding: 22px 22px 12px;
   border: 2px solid #eeeeee;
 }
@@ -6673,7 +6673,7 @@ aside.sidebar ul {
 }
 .container.content article .entry img.left, .container.content article .shortened-image.left {
   width: auto;
-  margin: 20px;
+  margin: 0 20px 10px;
   border: none;
 }
 .container.content article .shortened-image {
@@ -6689,22 +6689,32 @@ aside.sidebar ul {
 .container.content article p.date {
   color: #888888;
 }
-.container.content .article-signoff {
-  text-align: center;
-  padding: 22px;
-  background: #333333;
-  color: white;
-  margin: 36px -22px 36px -22px;
-}
-.container.content .article-signoff h3 {
-  padding: 0;
-  margin: 0;
-}
-.container.content .article-signoff a {
-  color: white;
-  text-decoration: underline;
-}
 
+@media screen and (max-width: 320px) {
+  .container.content article {
+    margin: 10px 0;
+  }
+  .container.content article .entry img.left {
+    max-width: 50%;
+    margin: 0 10px 10px;
+  }
+
+  .article-signoff {
+    text-align: center;
+    padding: 22px;
+    background: #333333;
+    color: white;
+    margin: 36px -22px 36px -22px;
+  }
+  .article-signoff h3 {
+    padding: 0;
+    margin: 0;
+  }
+  .article-signoff a {
+    color: white;
+    text-decoration: underline;
+  }
+}
 @media screen and (max-width: 480px) {
   img.headline {
     width: 100px;

@@ -125,7 +125,7 @@ aside.sidebar
   article
     margin: 36px 0 12px
     background: #fff
-    background: rgba(255,255,255,0.8)
+    background: rgba(255,255,255,1)
     padding: 22px 22px 12px
     border: 2px solid #eee
 
@@ -144,7 +144,7 @@ aside.sidebar
 
       &.left
         width: auto
-        margin: 20px
+        margin: 0 20px 10px
         border: none
 
     .shortened-image 
@@ -159,6 +159,15 @@ aside.sidebar
 
     p.date
       color: #888
+
++max-screen(320px)
+
+  .container.content 
+    article
+      margin: 10px 0
+      .entry img.left
+        max-width: 50%
+        margin: 0 10px 10px
 
   .article-signoff
     text-align: center
