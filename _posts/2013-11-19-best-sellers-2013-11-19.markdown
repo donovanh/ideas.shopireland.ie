@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "What's Popular?"
+title: "Popular this week..."
 description: "In the run up to Christmas, find out what Irish shoppers are buying..."
 tags: [shopping, christmas]
 
