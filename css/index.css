@@ -21,9 +21,11 @@ body {
   color: #333;
 }
 .page-container {
+  animation: fade-in 0.25s ease-out;
   margin: 0 auto;
   max-width: 56em;
 }
+
 h1, h2, h3, strong {
   font-family: Avenir Next Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
@@ -181,11 +183,18 @@ pre {
   display: flex;
 }
 
+.postlist-item a {
+  display: flex;
+  align-items: center;
+}
+
 .postlist-item img {
+  animation: slide-up 1.5s cubic-bezier(0,1,.4,1);
   max-width: 100%;
 }
 
 .postlist-item .text {
+  animation: slide-up 2s cubic-bezier(0,1,.4,1);
   padding: 1rem;
 }
 
@@ -213,11 +222,13 @@ pre {
 }
 
 .featured-item h2 {
+  animation: slide-up 0.75s cubic-bezier(0,1,.4,1);
   font-size: 36px;
   line-height: 42px;
 }
 
 .featured-item .postlist-image {
+  animation: slide-up 1.25s cubic-bezier(0,1,.4,1);
   display: block;
   height: 250px;
   width: 50%;
@@ -238,6 +249,7 @@ pre {
 }
 
 .featured-item .text {
+  animation: slide-up 1.5s cubic-bezier(0,1,.4,1);
   font-size: 22px;
   position: relative;
   padding: 1rem;
@@ -284,6 +296,7 @@ pre {
 }
 
 .header .image {
+  height: 200px;
   max-height: 50px;
   opacity: 0.1;
   pointer-events: none;
@@ -294,6 +307,7 @@ pre {
 }
 
 .post-content {
+  animation: slide-up 1.4s cubic-bezier(0,1,.4,1);
   padding-top: 1rem;
   position: relative;
   z-index: 10;
@@ -306,6 +320,7 @@ pre {
 }
 
 .post-title {
+  animation: slide-up 1s cubic-bezier(0,1,.4,1);
   font-size: 48px;
   margin: 0;
 }
@@ -541,4 +556,23 @@ h1:hover .direct-link, h2:hover .direct-link, h3:hover .direct-link, h4:hover .d
 @font-face{
     font-family:"Avenir Next Bold";
     src:url("/css/fonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2") format("woff2"),url("/css/fonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff") format("woff");
+}
+
+/* Animations */
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slide-up {
+  from {
+    transform: translateY(30px);
+  }
+  to {
+    translate: none;
+  }
 }
