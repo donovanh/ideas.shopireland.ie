@@ -11,19 +11,17 @@ It's one of those mundane things we rarely think about, I mean how often do you 
 
 I recently had a fairly severe blocked-shower-drain situation. The water wasn't draining as it was supposed to, and the shower tray would fill up dangerously, resulting in an unwanted foot bath and even some overflow.
 
-I went looking for a solution and found this gem, [Luigi's Sink and Drain Plunger](https://www.shopireland.ie/kitchen/B01HBSRDEE).
-
-Note: you can try [this link](https://www.amazon.co.uk/dp/B01HBSRDEE?tag=shopirelandie-21&linkCode=ogi&th=1&psc=1) to check Amazon directly as the above is supplied by a third party seller - or else check out your local hardware store for something similar! They're all the same concept!
+I went looking for a solution and found this gem, [Monument Master Plunger](https://www.shopireland.ie/tools/B0001P0F4A).
 
 ## A plumber's plunger
 
 <section class="product">
 	<div class="product-image">
-		<a href="https://www.shopireland.ie/kitchen/B01HBSRDEE"><img src="https://m.media-amazon.com/images/I/41dznCfoWhL.jpg" alt="Luigi's Large Sink and Drain Plunger for Kitchens, Bathrooms, Sinks, Baths, Waste Pipes and Showers. Heavy Duty, Powerful, Commercial Style 'Plumbers Plunger' with Large Bellows"></a>
+		<a href="https://www.shopireland.ie/tools/B0001P0F4A"><img src="https://m.media-amazon.com/images/I/41RendcFjVL.jpg" alt="Monument 1459W Master Plunger Sink and Waste Pipe Unblocker"></a>
 	</div>
 	<div class="product-details">
-		<h2>Luigi's Large Sink and Drain Plunger</h2>
-		<p><a href="https://www.amazon.co.uk/dp/B01HBSRDEE?tag=shopirelandie-21&linkCode=ogi&th=1&psc=1">Check availability on Amazon</a></p>
+		<h2>Monument 1459W Master Plunger Sink and Waste Pipe Unblocker</h2>
+		<p><a href="https://www.shopireland.ie/tools/B0001P0F4A">Buy it now</a></p>
 	</div>
 </section>
 
@@ -47,9 +45,9 @@ Thanks for reading, and keep those pipes clear now!
 
 <section class="products">
   <div class="product">
-		<div class="product-image"><a href="https://www.shopireland.ie/kitchen/B0001P0F4A"><img src="https://m.media-amazon.com/images/I/41RendcFjVL._SL160_.jpg" alt="Takes just a Monument 1459W Master Plunger Sink and Waste Pipe Unblocker"></a></div>
+		<div class="product-image"><a href="https://www.shopireland.ie/tools/B01AIOB9J8"><img src="https://m.media-amazon.com/images/I/41Bm76PK++L.jpg" alt="Faithfull Tools FAIPDRWCPL Toilet Plunger"></a></div>
 		<div class="product-details">
-			<h3><a href="https://www.shopireland.ie/kitchen/B0001P0F4A">Monument 1459W Master Plunger Sink and Waste Pipe Unblocker</a></h3>
+			<h3><a href="https://www.shopireland.ie/tools/B01AIOB9J8">Faithfull Tools FAIPDRWCPL Toilet Plunger</a></h3>
 		</div>
 	</div>
 	<div class="product">
