@@ -1,0 +1,41 @@
+---
+layout: layouts/home.njk
+---
+
+<section class="home-content">
+
+  {% set latestPost = collections.posts | head(-1) %}
+  {% for latest in latestPost %}
+    <section class="featured-item">
+      <a href="{{ latest.url | url }}" class="postlist-image">
+        <img src="/img/posts/{{latest.data.headerImage}}" alt="{{latest.data.title}}" />
+      </a>
+      <div class="text">
+        <h2><a href="{{ latest.url | url }}">{{ latest.data.title }}</a></h2>
+        <p>{{ latest.data.description }}</p>
+      </div>
+    </section>
+  {% endfor %}
+
+  {% set postslist = collections.posts | head(-7) %}
+  <ul reversed class="postlist">
+  {% for post in postslist | reverse %}
+    {% if loop.index !== 1 %}
+      <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
+        <a href="{{ post.url | url }}" class="postlist-link">
+          <div class="image">
+            <img src="/img/posts/{{post.data.headerImage}}" alt="{{ post.data.title }}" />
+          </div>
+          <div class="text">
+            <h2>{{ post.data.title }}</h2>
+          </div>
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+
+  <p>You can find all the posts in <a href="{{ '/posts/' | url }}">the Shop Ireland blog archive</a>.</p>
+
+</section>

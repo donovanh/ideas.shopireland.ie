@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+  </head>
+  <body>
+    <div class="page-container">
+      <header>
+        <div class="header-wrapper">
+          <h1 class="home"><a href="/">shop<strong>ireland</strong>.ie blog</a></h1>
+
+          {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+          <ul class="nav">
+          {%- for entry in collections.all | eleventyNavigation %}
+            <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
+          {%- endfor %}
+          <li class="nav-item"><a href="https://www.shopireland.ie">Go to Shop Ireland</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <br />
+
+      <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+        {{ content | safe }}
+      </main>
+
+      <footer>
+        <p>All content &copy; <a href="https://www.shopireland.ie">Shop Ireland</a></p>
+        <p>If you'd like to tell us about something cool, <a href="mailto:mail@shopireland.ie">send us an email</a>!</p>
+        <p>Browse and shop <a href="https://www.shopireland.ie">Amazon Ireland</a> now over at <a href="https://www.shopireland.ie">Shop Ireland</a>.<p>
+      </footer>
+    </div>
+    <!-- Current page: {{ page.url | url }} -->
+  </body>
+</html>

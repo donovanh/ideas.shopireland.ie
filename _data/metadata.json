@@ -1,0 +1,15 @@
+{
+  "title": "Shop Ireland Blog",
+  "url": "https://blog.shopireland.ie",
+  "description": "Irish shopping news from ShopIreland.ie",
+  "feed": {
+    "subtitle": "Irish shopping news from ShopIreland.ie",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://blog.shopireland.ie"
+  },
+  "author": {
+    "name": "Donovan Hutchinson",
+    "email": "s@hop.ie"
+  }
+}
