@@ -15,7 +15,7 @@
 html,
 body {
   margin: 0;
-  font-family: AvenirNextLTW01-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir Next Regular', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #333;
@@ -25,10 +25,10 @@ body {
   max-width: 56em;
 }
 h1, h2, h3, strong {
-  font-family: Avenir Next LT W01 Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Avenir Next Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 h1.home a {
-  font-family: AvenirNextLTW01-Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Avenir Next Regular', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: normal;
 }
 p:last-child {
@@ -373,7 +373,7 @@ footer {
   border-radius: 5px;
   transition: 25ms ease-out;
   padding: 0.5em 0.75em;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif
 }
 
 .resp-sharing-button__icon svg {
@@ -421,7 +421,8 @@ footer {
   border-radius: 5px;
   transition: 25ms ease-out;
   padding: 0.5em 0.75em;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+  font-family: Avenir Next Regular, Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 14px;
 }
 
 .resp-sharing-button__icon svg {
@@ -518,19 +519,19 @@ h1:hover .direct-link, h2:hover .direct-link, h3:hover .direct-link, h4:hover .d
 
 /* Fonts */
 
-@import url("//fast.fonts.net/t/1.css?apiType=css&projectid=b18b286e-c3ca-4571-bad1-73fd6e67b6a6");
+/*@import url("//fast.fonts.net/t/1.css?apiType=css&projectid=b18b286e-c3ca-4571-bad1-73fd6e67b6a6");*/
 
 @font-face{
-    font-family:"AvenirNextLTW01-Regular";
-    src:url("/fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"),url("/fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff");
+    font-family:"Avenir Next Regular";
+    src:url("/css/fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"),url("/css/fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff");
 }
 
 @font-face{
-    font-family:"AvenirNextLTW01-Italic";
-    src:url("/fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2") format("woff2"),url("/fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff") format("woff");
+    font-family:"Avenir Next Italic";
+    src:url("/css/fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2") format("woff2"),url("/css/fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff") format("woff");
 }
 
 @font-face{
-    font-family:"Avenir Next LT W01 Bold";
-    src:url("/fonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2") format("woff2"),url("/fonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff") format("woff");
+    font-family:"Avenir Next Bold";
+    src:url("/css/fonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2") format("woff2"),url("/css/fonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff") format("woff");
 }
