@@ -7,6 +7,12 @@
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+  
+    <meta property="og:title" content="{{ renderData.title or title or metadata.title }} - Shop Ireland Blog">
+    <meta property="og:description" content="{{ renderData.description or description or metadata.description }}">
+    {% if headerImage %}<meta property="og:image" content="{{ metadata.url | url }}/img/posts/{{headerImage}}">{% endif %}
+    <meta property="og:url" content="{{ metadata.url | url }}{{ page.url | url }}">
+    <meta name="twitter:card" content="summary_large_image">
   </head>
   <body>
     <div class="page-container">
@@ -36,6 +42,5 @@
         <p>Browse and shop <a href="https://www.shopireland.ie">Amazon Ireland</a> now over at <a href="https://www.shopireland.ie">Shop Ireland</a>.<p>
       </footer>
     </div>
-    <!-- Current page: {{ page.url | url }} -->
   </body>
 </html>
