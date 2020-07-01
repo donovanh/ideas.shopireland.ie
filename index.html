@@ -1,42 +1,65 @@
----
-layout: default
-title: Shop Ireland blog
-bodyTag: home
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Ireland Blog</title>
+    <meta name="Description" content="Irish shopping news from ShopIreland.ie">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Shop Ireland Blog">
+  </head>
+  <body>
+    <div class="page-container">
+      <header>
+        <div class="header-wrapper">
+          <h1 class="home"><a href="/">shop<strong>ireland</strong>.ie blog</a></h1>
+          <ul class="nav">
+            <li class="nav-item"><a href="/posts/">All Posts</a></li>
+          <li class="nav-item"><a href="https://www.shopireland.ie">Go to Shop Ireland</a></li>
+          </ul>
+        </div>
+      </header>
 
-{% for post in paginator.posts %}
-	
-    <article class="homepage post">
+      <br />
 
-    	<header>
-        <a href="{{ post.url }}">
-          {% if post.imageURL %} 
-            <img src="/images/posts/{{post.imageURL}}" alt="{{ post.description }}" class="{{ post.cornerStyle }} headline">
-          {% endif %}
-      	  <h1>{{ post.title }}</h1>
-        </a>
-        <p class="date">{{ post.date | date: "%B %d, %Y" }}</p>
-        <p>{{ post.description }}</p>
-    	</header>
-    </article>
+      <main class="tmpl-home">
+        
 
-{% endfor %}
+<section class="home-content">
 
-<!-- Pagination links -->
-{% if paginator.previous_page || paginator.next_page %}
-  <nav class="pagination">
-    {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-        <a href="/" class="previous">&laquo; Previous</a>
-      {% else %}
-        <a href="/page{{paginator.previous_page}}" class="previous">&laquo; Previous</a>
-      {% endif %}
-      {% if paginator.next_page %}
-        - 
-      {% endif %}
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="/page{{paginator.next_page}}" class="next">Next &raquo;</a>
-    {% endif %}
-  </nav>
-{% endif %}
+  
+  
+    <section class="featured-item">
+      <a href="/posts/best-plunger/" class="postlist-image">
+        <img src="/img/posts/plunger.jpg" alt="The best toilet plunger ever" />
+      </a>
+      <div class="text">
+        <h2><a href="/posts/best-plunger/">The best toilet plunger ever</a></h2>
+        <p>If you thought you&#39;d tried the best, just wait till you unblock your shower with this baby</p>
+      </div>
+    </section>
+  
+
+  
+  <ul reversed class="postlist">
+  
+    
+  
+  </ul>
+
+
+  <p>You can find all the posts in <a href="/posts/">the Shop Ireland blog archive</a>.</p>
+
+</section>
+
+      </main>
+
+      <footer>
+        <p>All content &copy; <a href="https://www.shopireland.ie">Shop Ireland</a></p>
+        <p>If you'd like to tell us about something cool, <a href="mailto:mail@shopireland.ie">send us an email</a>!</p>
+        <p>Browse and shop <a href="https://www.shopireland.ie">Amazon Ireland</a> now over at <a href="https://www.shopireland.ie">Shop Ireland</a>.<p>
+      </footer>
+    </div>
+    <!-- Current page: / -->
+  </body>
+</html>
