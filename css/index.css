@@ -510,11 +510,18 @@ footer {
 
 .direct-link {
   opacity: 0;
-  transition: opacity 0.2s ease-out;
+  position: absolute;
+  left: -23px;
+  padding-right: 23px;
+  transition: opacity 0.3s ease-out;
 }
 
 h1:hover .direct-link, h2:hover .direct-link, h3:hover .direct-link, h4:hover .direct-link {
   opacity: 0.5;
+}
+
+.direct-link:hover {
+  opacity: 1;
 }
 
 /* Fonts */
