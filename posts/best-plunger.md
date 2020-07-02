@@ -1,5 +1,5 @@
 ---
-title: The best toilet plunger ever
+title: The best sink plunger ever
 description: If you thought you'd tried the best, just wait till you unblock your shower with this baby
 date: 2020-06-14
 tags:
