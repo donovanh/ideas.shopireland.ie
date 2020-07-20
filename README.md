@@ -1,9 +1,9 @@
-# Shop Ireland blog
+# Ideas: A shopping-related digital mag from Shop Ireland
 
-An Eleventy blog.
+Made with the lovely Eleventy.
 
 To create a new post use `scripts/makePost.js` with:
 
 ```
-TODO
+npm run new --title "Post title"
 ```

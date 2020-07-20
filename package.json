@@ -1,24 +1,25 @@
 {
-  "name": "shop-ireland-blog",
-  "version": "0.0.1",
-  "description": "A simple blog for a simple time",
+  "name": "shop-ireland-ideas",
+  "version": "0.5.0",
+  "description": "All sorts of ideas for shopping in Ireland",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
     "serve": "eleventy --serve",
+    "start": "eleventy --serve",
     "debug": "DEBUG=* eleventy",
-    "new-post": "node scripts/makePost.js",
+    "new": "node scripts/makePost.js",
     "deploy": "eleventy && gh-pages -d _site"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/donovanh/blog.shopireland.ie"
+    "url": "git://github.com/donovanh/ideas.shopireland.ie"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/donovanh/blog.shopireland.ie/issues"
+    "url": "https://github.com/donovanh/ideas.shopireland.ie/issues"
   },
-  "homepage": "https://blog.shopireland.ie",
+  "homepage": "https://ideas.shopireland.ie",
   "devDependencies": {
     "@11ty/eleventy": "^0.11.0",
     "@11ty/eleventy-navigation": "^0.1.5",

@@ -23,7 +23,7 @@ layout: layouts/home.njk
     {% if loop.index !== 1 %}
       <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
         <a href="{{ post.url | url }}" class="postlist-link">
-          <div class="image">
+          <div class="postlist-image">
             <img src="/img/posts/{{post.data.headerImage}}" alt="{{ post.data.title }}" />
           </div>
           <div class="text">
@@ -35,7 +35,7 @@ layout: layouts/home.njk
   {% endfor %}
   </ul>
 
+  <!-- TODO: Call out some hand-picked "featured" stories -->
 
-  <p>You can find all the posts in <a href="{{ '/posts/' | url }}">the Shop Ireland blog archive</a>.</p>
-
+  <!-- TODO: link to archive when needed -->
 </section>

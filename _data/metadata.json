@@ -1,15 +1,15 @@
 {
-  "title": "Shop Ireland Blog",
-  "url": "https://blog.shopireland.ie",
-  "description": "Irish shopping news from ShopIreland.ie",
+  "title": "Ideas - Shop Ireland",
+  "url": "https://ideas.shopireland.ie",
+  "description": "Find the best shopping ideas from ShopIreland.ie",
   "feed": {
-    "subtitle": "Irish shopping news from ShopIreland.ie",
+    "subtitle": "Find the best shopping ideas from ShopIreland.ie",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://blog.shopireland.ie"
+    "id": "https://ideas.shopireland.ie"
   },
   "author": {
     "name": "Donovan Hutchinson",
-    "email": "s@hop.ie"
+    "email": "mail@shopireland.ie"
   }
 }

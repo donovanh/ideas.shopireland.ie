@@ -1,35 +1,18 @@
-'use strict';
-
-const fs = require('fs');
-const slugify = require('slugify');
-
-function pad(n, width, z) {
-  z = z || '0';
-  n = n + '';
-  return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
-}
-
-const title = process.argv[2];
-const dt = new Date();
-const today = `${dt.getFullYear()}-${pad(dt.getMonth() + 1, 2)}-${pad(dt.getDate(), 2)}`;
-const path = `./posts/_${slugify(title.toLowerCase())}.md`;
-
-function titleCase(str) {
-  return str.toLowerCase().split(' ').map(function(word) {
-    return (word.charAt(0).toUpperCase() + word.slice(1));
-  }).join(' ');
-}
-
-const fileContent = `---
-title: ${titleCase(title)}
+---
+title: 20 amazing free things you can find and do online
 description: A description that will show as subtitle and also on social sharing
-date: ${today}
+date: 2020-07-19
 tags:
+	- How-To Guides
 layout: layouts/post.njk
 headerImage: staring-out-window.jpg
 ---
 
 Content to go here
+
+Mine this for ideas:
+
+https://www.reddit.com/r/AskReddit/comments/hsirrq/what_is_something_free_from_the_internet_everyone/
 
 ## Example Product layout
 
@@ -59,15 +42,3 @@ Content to go here
 		</div>
 	</div>
 </section>
-`;
-
-if (fs.existsSync(path)) {
-  console.log('A post with that name already exists')
-} else {
-  fs.writeFile(path, fileContent, function (err) {
-    if (err) return console.log(err);
-    console.log(`Writing ${path}`);
-    console.log(`Remove the "_" from the file name to publish`);
-  });
-}
-
