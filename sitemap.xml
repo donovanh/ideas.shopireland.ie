@@ -2,27 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.shopireland.ie/posts/</loc>
+    <loc>https://ideas.shopireland.ie/posts/</loc>
     <lastmod>2020-04-13</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.shopireland.ie/</loc>
+    <loc>https://ideas.shopireland.ie/</loc>
     <lastmod>2020-04-13</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.shopireland.ie/page-list/</loc>
+    <loc>https://ideas.shopireland.ie/page-list/</loc>
     <lastmod>2020-04-13</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.shopireland.ie/tags/</loc>
+    <loc>https://ideas.shopireland.ie/tags/</loc>
     <lastmod>2020-04-13</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.shopireland.ie/posts/best-plunger/</loc>
+    <loc>https://ideas.shopireland.ie/tags/Questions/</loc>
+    <lastmod>2020-04-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/tags/Product%20reviews/</loc>
+    <lastmod>2020-04-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/tags/Tools/</loc>
+    <lastmod>2020-04-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/tags/Music/</loc>
+    <lastmod>2020-04-13</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/posts/best-plunger/</loc>
     <lastmod>2020-06-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/posts/amazon-ireland/</loc>
+    <lastmod>2020-07-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/posts/lankum-live-concert/</loc>
+    <lastmod>2020-07-19</lastmod>
   </url>
 </urlset>

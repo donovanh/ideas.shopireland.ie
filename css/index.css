@@ -16,12 +16,11 @@ html,
 body {
   margin: 0;
   font-family: 'Avenir Next Regular', Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   color: #333;
 }
 .page-container {
-  animation: fade-in 0.25s ease-out;
   margin: 0 auto;
   max-width: 56em;
 }
@@ -29,20 +28,22 @@ body {
 h1, h2, h3, strong {
   font-family: Avenir Next Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-h1.home a {
-  font-family: 'Avenir Next Regular', Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: normal;
-}
 p:last-child {
   margin-bottom: 0;
 }
 p,
 .tmpl-post li {
-  line-height: 1.45;
+  line-height: 1.66;
+}
+@media only screen and (max-width: 560px) {
+  p, .tmpl-post li  {
+    font-size: 16px;
+  }
 }
 a {
   color: #1D5BE1;
   text-decoration: none;
+  transition: all 0.25s ease-out;
 }
 a:hover {
   color: rgb(0, 81, 255) !important;
@@ -51,7 +52,7 @@ a:visited {
   color: rgb(88, 141, 255);
 }
 main {
-  padding: 51px 1rem 1rem;
+  padding: 0 1rem;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -119,17 +120,30 @@ pre {
 }
 
 /* Header */
-.home {
-  padding: 20px;
-  float: left;
-  margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
+header {
+  display: inline-block;
+  width: 100%;
 }
-.home :link:not(:hover) {
+.logo {
+  padding: 20px 0 0 20px;
+  float: left;
+  margin: 0;
+  font-size: 2em;
+}
+.logo :link:not(:hover) {
   text-decoration: none;
 }
-.home a {
-  color: #333;
+.logo a {
+  color: #444;
+  font-style: italic;
+  font-family: 'Avenir Next Regular', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+.logo a span {
+  color: #000;
+}
+.logo a:hover span {
+  color: rgb(11, 35, 116);
 }
 
 /* Nav */
@@ -138,7 +152,7 @@ pre {
   margin: 0 auto;
 }
 .nav {
-  padding: 20px 0;
+  padding: 20px 20px 0;
   list-style: none;
   float: right;
   margin-left: 1em;
@@ -190,12 +204,20 @@ pre {
 
 .postlist-item img {
   animation: slide-up 1.5s cubic-bezier(0,1,.4,1);
-  max-width: 100%;
 }
 
 .postlist-item .text {
   animation: slide-up 2s cubic-bezier(0,1,.4,1);
   padding: 1rem;
+}
+
+.postlist-image {
+  display: flex;
+  justify-content: center;
+}
+
+.postlist-image img {
+  max-width: 80%;
 }
 
 /* Post postlist - on posts */
@@ -225,13 +247,16 @@ pre {
   animation: slide-up 0.75s cubic-bezier(0,1,.4,1);
   font-size: 36px;
   line-height: 42px;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .featured-item .postlist-image {
   animation: slide-up 1.25s cubic-bezier(0,1,.4,1);
   display: block;
   height: 250px;
-  width: 50%;
+  margin-right: 2.5%;
+  width: 45%;
 }
 @media only screen and (max-width: 500px) {
   .featured-item .postlist-image {
@@ -295,15 +320,24 @@ pre {
   z-index: 0;
 }
 
-.header .image {
-  height: 200px;
-  max-height: 50px;
-  opacity: 0.1;
+.post-wrapper .image {
+  height: 125px;
+  width: 125px;
+  opacity: 0.25;
   pointer-events: none;
+  margin: 0 0 -60px -50px;
+  z-index: -1;
 }
 
-.header .image img {
-  margin-top: -30%;
+@media only screen and (max-width: 500px) {
+  .post-wrapper .image {
+    margin: 0 0 -60px -10px;
+  }
+}
+
+.image img {
+  margin-top: 0;
+  width: 100%;
 }
 
 .post-content {
@@ -313,20 +347,18 @@ pre {
   z-index: 10;
 }
 
-@media only screen and (max-width: 500px) {
-  .post-content {
-    padding-top: 180px;
-  }
-}
-
 .post-title {
   animation: slide-up 1s cubic-bezier(0,1,.4,1);
+  position: relative;
   font-size: 48px;
   margin: 0;
+  z-index: 2;
 }
+
 
 @media only screen and (max-width: 500px) {
   .post-title {
+    margin-top: -20px;
     font-size: 32px;
   }
 }
@@ -537,6 +569,21 @@ h1:hover .direct-link, h2:hover .direct-link, h3:hover .direct-link, h4:hover .d
 
 .direct-link:hover {
   opacity: 1;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Fonts */

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Shop Ireland Blog</title>
-	<subtitle>Irish shopping news from ShopIreland.ie</subtitle>
+	<title>Ideas - Shop Ireland</title>
+	<subtitle>Find the best shopping ideas from ShopIreland.ie</subtitle>
 	
-	<link href="https://blog.shopireland.ie/feed/feed.xml" rel="self"/>
-	<link href="https://blog.shopireland.ie"/>
-	<updated>2020-06-14T01:00:00+01:00</updated>
-	<id>https://blog.shopireland.ie</id>
+	<link href="https://ideas.shopireland.ie/feed/feed.xml" rel="self"/>
+	<link href="https://ideas.shopireland.ie"/>
+	<updated>2020-07-19T01:00:00+01:00</updated>
+	<id>https://ideas.shopireland.ie</id>
 	<author>
 		<name>Donovan Hutchinson</name>
-		<email>s@hop.ie</email>
+		<email>mail@shopireland.ie</email>
 	</author>
 	
 	<entry>
 		<title>The best sink plunger ever</title>
-		<link href="https://blog.shopireland.ie/posts/best-plunger/"/>
+		<link href="https://ideas.shopireland.ie/posts/best-plunger/"/>
 		<updated>2020-06-14T01:00:00+01:00</updated>
-		<id>https://blog.shopireland.ie/posts/best-plunger/</id>
+		<id>https://ideas.shopireland.ie/posts/best-plunger/</id>
 		<content type="html">&lt;p&gt;It&#39;s one of those mundane things we rarely think about, I mean how often do you think about the plunger we use to clear out blocked drains? Yet when you need it, it&#39;s something that can really improve your day.&lt;/p&gt;
 &lt;p&gt;I recently had a fairly severe blocked-shower-drain situation. The water wasn&#39;t draining as it was supposed to, and the shower tray would fill up dangerously, resulting in an unwanted foot bath and even some overflow.&lt;/p&gt;
 &lt;p&gt;I went looking for a solution and found this gem, &lt;a href=&quot;https://www.shopireland.ie/tools/B0001P0F4A&quot;&gt;Monument Master Plunger&lt;/a&gt;.&lt;/p&gt;
@@ -74,6 +74,85 @@
 		&lt;div class=&quot;product-image&quot;&gt;&lt;a href=&quot;https://www.shopireland.ie/toys/B006LKSHJE&quot;&gt;&lt;img src=&quot;https://m.media-amazon.com/images/I/41H52s9MUHL._SL160_.jpg&quot; alt=&quot;Bristol Novelty BA105 Gorilla Feet, Unisex-Adult, One Size&quot;&gt;&lt;/a&gt;&lt;/div&gt;
 		&lt;div class=&quot;product-details&quot;&gt;
 			&lt;h3&gt;&lt;a href=&quot;https://www.shopireland.ie/toys/B006LKSHJE&quot;&gt;Bristol Novelty BA105 Gorilla Feet&lt;/a&gt;&lt;/h3&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Where is Amazon Ireland?</title>
+		<link href="https://ideas.shopireland.ie/posts/amazon-ireland/"/>
+		<updated>2020-07-19T01:00:00+01:00</updated>
+		<id>https://ideas.shopireland.ie/posts/amazon-ireland/</id>
+		<content type="html">&lt;p&gt;Content to go here&lt;/p&gt;
+&lt;h2 id=&quot;example-product-layout&quot;&gt;Example Product layout &lt;a class=&quot;direct-link&quot; href=&quot;#example-product-layout&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;section class=&quot;product&quot;&gt;
+	&lt;div class=&quot;product-image&quot;&gt;
+		&lt;a href=&quot;https://www.shopireland.ie/books/0241461871&quot;&gt;&lt;img src=&quot;https://m.media-amazon.com/images/I/41UZ+LOsbAL.jpg&quot; alt=&quot;Mrs Hinch: The Little Book of Lists&quot;&gt;&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;product-details&quot;&gt;
+		&lt;h2&gt;Mrs Hinch: The Little Book of Lists&lt;/h2&gt;
+		&lt;p&gt;&lt;a href=&quot;https://www.shopireland.ie/books/0241461871&quot;&gt;Buy this from ShopIreland.ie&lt;/a&gt;&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;h2 id=&quot;example-multiple-products-layout&quot;&gt;Example Multiple Products layout &lt;a class=&quot;direct-link&quot; href=&quot;#example-multiple-products-layout&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;section class=&quot;products&quot;&gt;
+	&lt;div class=&quot;product&quot;&gt;
+		&lt;div class=&quot;product-image&quot;&gt;&lt;a href=&quot;https://ideas.shopireland.ie/posts/amazon-ireland/URL&quot;&gt;&lt;img src=&quot;https://ideas.shopireland.ie/posts/amazon-ireland/IMAGESRC&quot; alt=&quot;TITLE&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+		&lt;div class=&quot;product-details&quot;&gt;
+			&lt;h3&gt;&lt;a href=&quot;https://ideas.shopireland.ie/posts/amazon-ireland/URL&quot;&gt;TITLE&lt;/a&gt;&lt;/h3&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;product&quot;&gt;
+		&lt;div class=&quot;product-image&quot;&gt;&lt;a href=&quot;https://ideas.shopireland.ie/posts/amazon-ireland/URL&quot;&gt;&lt;img src=&quot;https://ideas.shopireland.ie/posts/amazon-ireland/IMAGESRC&quot; alt=&quot;TITLE&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+		&lt;div class=&quot;product-details&quot;&gt;
+			&lt;h3&gt;&lt;a href=&quot;https://ideas.shopireland.ie/posts/amazon-ireland/URL&quot;&gt;TITLE&lt;/a&gt;&lt;/h3&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>The Wild Rover like you&#39;ve never heard before with Lankum</title>
+		<link href="https://ideas.shopireland.ie/posts/lankum-live-concert/"/>
+		<updated>2020-07-19T01:00:00+01:00</updated>
+		<id>https://ideas.shopireland.ie/posts/lankum-live-concert/</id>
+		<content type="html">&lt;p&gt;This live performance from Irish band &lt;a href=&quot;https://www.shopireland.ie/home/search/lankum/&quot;&gt;Lankum&lt;/a&gt; is quite a story.&lt;/p&gt;
+&lt;p&gt;As Covid swept the world in May, 2020, the quartet managed to find their way to Washington DC, USA to perform a live &lt;a href=&quot;https://www.npr.org/2020/05/18/856974546/lankum-tiny-desk-concert&quot;&gt;Tiny Desk concert&lt;/a&gt;. The journey hadn&#39;t been easy - visa problems had pushed back their February date and then their van broke down on the way from New York.&lt;/p&gt;
+&lt;p&gt;But they made it and put in a stunning performance. Enjoy the full 3-song tiny concert below including their amazing rendition of The Wild Rover.&lt;/p&gt;
+&lt;div class=&quot;video&quot;&gt;
+	&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.youtube.com/embed/kCLFShptAIA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;h2 id=&quot;latest-release&quot;&gt;Latest release &lt;a class=&quot;direct-link&quot; href=&quot;#latest-release&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;section class=&quot;product&quot;&gt;
+	&lt;div class=&quot;product-image&quot;&gt;
+		&lt;a href=&quot;https://www.shopireland.ie/music/B07X7CR5LJ/&quot;&gt;&lt;img src=&quot;https://m.media-amazon.com/images/I/61nAoC+bngL.jpg&quot; alt=&quot;Mrs Hinch: The Little Book of Lists&quot;&gt;&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;product-details&quot;&gt;
+		&lt;h2&gt;The Livelong Day&lt;/h2&gt;
+		&lt;p&gt;&lt;a href=&quot;https://www.shopireland.ie/music/B07X7CR5LJ/&quot;&gt;Buy this from ShopIreland.ie&lt;/a&gt;&lt;/p&gt;
+	&lt;/div&gt;
+&lt;/section&gt;
+&lt;p&gt;The Guardian ★★★★★  Mojo ★★★★★  Irish Times ★★★★★&lt;/p&gt;
+&lt;p&gt;Including tracks:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;The Wild Rover&lt;/li&gt;
+	&lt;li&gt;The Young People&lt;/li&gt;
+	&lt;li&gt;Ode To Lullaby&lt;/li&gt;
+	&lt;li&gt;Bear Creek&lt;/li&gt;
+	&lt;li&gt;Katie Cruel&lt;/li&gt;
+	&lt;li&gt;The Dark Eyed Gypsy&lt;/li&gt;
+	&lt;li&gt;The Pride Of Petravore&lt;/li&gt;
+	&lt;li&gt;Hunting The Wren&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;also-check-out...&quot;&gt;Also check out... &lt;a class=&quot;direct-link&quot; href=&quot;#also-check-out...&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;section class=&quot;products&quot;&gt;
+	&lt;div class=&quot;product&quot;&gt;
+		&lt;div class=&quot;product-image&quot;&gt;&lt;a href=&quot;https://www.shopireland.ie/music/B075G52YCX/&quot;&gt;&lt;img src=&quot;https://m.media-amazon.com/images/I/71UnutlxglL.jpg&quot; alt=&quot;Between The Earth and Sky&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+		&lt;div class=&quot;product-details&quot;&gt;
+			&lt;h3&gt;&lt;a href=&quot;https://www.shopireland.ie/music/B075G52YCX/&quot;&gt;Between The Earth and Sky&lt;/a&gt;&lt;/h3&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/section&gt;
