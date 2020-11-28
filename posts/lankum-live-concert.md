@@ -12,7 +12,7 @@ This live performance from Irish band <a href="https://www.shopireland.ie/home/s
 
 As Covid swept the world in May, 2020, the quartet managed to find their way to Washington DC, USA to perform a live <a href="https://www.npr.org/2020/05/18/856974546/lankum-tiny-desk-concert">Tiny Desk concert</a>. The journey hadn't been easy - visa problems had pushed back their February date and then their van broke down on the way from New York.
 
-But they made it and put in a stunning performance. Enjoy the full 3-song tiny concert below including their amazing rendition of The Wild Rover.
+Thankfully they made it and put in a stunning performance. Enjoy the full 3-song tiny concert below including their amazing rendition of The Wild Rover.
 
 <div class="video">
 	<iframe width="100%" height="400" src="https://www.youtube.com/embed/kCLFShptAIA" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
