@@ -290,6 +290,20 @@ You can find loads of [other examples, including Santa carrying an elf, unicorns
 	</div>
 </section>
 
+### Adam's Space Section
+
+<section class="product">
+	<div class="product-image">
+		<a href="https://www.shopireland.ie/toys/B0713QMSGH/"><img src="https://m.media-amazon.com/images/I/51JkgVoweEL.jpg" alt="Kids Karaoke Microphone Speaker at Shop Ireland"></a>
+	</div>
+	<div class="product-details">
+		<h2>Kids Karaoke Microphone Speaker</h2>
+		<p>Ground control to Major Tom!</p>
+		<p><a href="https://www.shopireland.ie/toys/B0713QMSGH/">See it here</a></p>
+	</div>
+</section>
+
+
 ### [Ride-ons](https://www.shopireland.ie/toys/subcat/364083031) (AKA Christy Moore section)
 
 <section class="product">
