@@ -2,51 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ideas.shopireland.ie/posts/</loc>
-    <lastmod>2020-04-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ideas.shopireland.ie/</loc>
-    <lastmod>2020-04-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ideas.shopireland.ie/page-list/</loc>
-    <lastmod>2020-04-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ideas.shopireland.ie/tags/</loc>
-    <lastmod>2020-04-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ideas.shopireland.ie/tags/Questions/</loc>
-    <lastmod>2020-04-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ideas.shopireland.ie/tags/Product%20reviews/</loc>
-    <lastmod>2020-04-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ideas.shopireland.ie/tags/Tools/</loc>
-    <lastmod>2020-04-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ideas.shopireland.ie/tags/Music/</loc>
-    <lastmod>2020-04-13</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ideas.shopireland.ie/tags/Gift%20ideas/</loc>
-    <lastmod>2020-04-13</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ideas.shopireland.ie/posts/best-plunger/</loc>
     <lastmod>2020-06-14</lastmod>
   </url>
@@ -64,5 +19,50 @@
   <url>
     <loc>https://ideas.shopireland.ie/posts/toy-show-2020/</loc>
     <lastmod>2020-11-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/posts/</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/page-list/</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/tags/</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/tags/Music/</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/tags/Gift%20ideas/</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/tags/Questions/</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/tags/Product%20reviews/</loc>
+    <lastmod>2022-04-02</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ideas.shopireland.ie/tags/Tools/</loc>
+    <lastmod>2022-04-02</lastmod>
   </url>
 </urlset>
