@@ -59,3 +59,12 @@ Unmissable podcasts for [year]
 
 Random:
 
+<<<<<<< HEAD
+=======
+
+## Other tasks:
+
+- Tidy layout
+- Redesign product callouts
+- Optimise social metadata
+>>>>>>> 2047e72f1f5c4363712cd7ed286ac599aa346191
