@@ -5,14 +5,9 @@ templateClass: tmpl-post
 
 <article class="post-wrapper">
 
-  <div class="header">
-    <div class="image">
-      <img src="/img/posts/{{headerImage}}" alt="{{ title }}" />
-    </div>
-    <h1 class="post-title">{{ title }}</h1>
-  </div>
-
   <div class="post-content">
+
+    <h1 class="post-title">{{ title }}</h1>
 
     <div class="sharing">
       <!-- Sharingbutton Facebook -->
@@ -38,8 +33,19 @@ templateClass: tmpl-post
           </div>
         </div>
       </a>
-
     </div>
+
+    <p>{{ intro | safe }}</p>
+
+    {% if headerVideo %}
+    <div class="video">
+	    <iframe width="100%" height="400" src="https://www.youtube.com/embed/{{headerVideo}}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    {% elseif headerImage and not suppressPostImage %}
+    <div class="post-image">
+      <img src="/img/posts/{{headerImage}}" alt="{{ headerImageDescription }}" />
+    </div>
+    {% endif %}
 
   {{ content | safe }}
 

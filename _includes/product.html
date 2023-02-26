@@ -1,0 +1,22 @@
+<section class="product">
+	<div class="product-image">
+		<a href="{% if url %}{{ url }}{% else %}https://www.shopireland.ie/{{ section }}/{{ asin }}/{% endif %}"><img src="{{ image }}" alt="{{ title }} at Shop Ireland"></a>
+	</div>
+	<div class="product-details">
+		<h2>{{ title }}</h2>
+    {% if creator %}<p class="creator"><strong>{{ creator }}</strong></h3>{% endif %}
+		<p>{{ description }}</p>
+		<p><a href="{% if url %}{{ url }}{% else %}https://www.shopireland.ie/{{ section }}/{{ asin }}/{% endif %}">{% if action %}{{ action }}{% else %}Buy here{% endif %}</a></p>
+	</div>
+</section>
+
+
+<!--
+	include "product.html"
+    section: "books"
+    asin: ""
+    title: ""
+    creator: ""
+    description: ""
+    image: ""
+-->

@@ -1,10 +1,24 @@
 ## Plan
 
+- Set up with 11ty 2
+- Tidy styling
+- Create snippet generator scripts for a given list of ASINs
+- Revisit mailing list idea (Beehiiv?)
+
+## Other tasks:
+
+- Set up mailing list / signup form
+- Tidy layout
+- Redesign product callouts
+- Optimise social metadata
+
 April 2022
 - Autism Acceptance Month 
 - Book of the month 
 - Movie of the month 
 - Diet & Fitness: Get strong for the summer
+- What is Bitcoin?
+- Spring Sale
 
 ## Promotion steps
 - Post to Twitter
@@ -45,9 +59,3 @@ Unmissable podcasts for [year]
 
 Random:
 
-
-## Other tasks:
-
-- Tidy layout
-- Redesign product callouts
-- Optimise social metadata
