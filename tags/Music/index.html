@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tagged “Music”</title>
+    <title>Tagged “{{ tag }}”</title>
     <meta name="description" content="Find the best shopping ideas from ShopIreland.ie">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Ideas - Shop Ireland">
   
-    <meta property="og:title" content="Tagged “Music” - Ideas from Shop Ireland">
+    <meta property="og:title" content="Tagged “{{ tag }}” - Ideas from Shop Ireland">
     <meta property="og:description" content="Find the best shopping ideas from ShopIreland.ie">
     
     <meta property="og:url" content="https://ideas.shopireland.ie/tags/Music/">
@@ -18,15 +18,13 @@
   <body>
     <div class="page-container">
       <header>
-        <div class="header-wrapper">
-          <h1 class="logo"><a href="/">i<span>deas</span></a></h1>
-
-          <ul class="nav">
-            <li class="nav-item"><a href="/posts/">All Posts</a></li>
-          <li class="nav-item"><a href="https://www.shopireland.ie">Go to Shop Ireland</a></li>
-          </ul>
-        </div>
+        <h1 class="logo">
+          <a href="/">ideas</a>
+          <span class="logo-by">by</span>
+          <a class="shopireland-link" href="https://www.shopireland.ie">shop<strong>ireland</strong>.ie</a>
+        </h1>
       </header>
+      
 
       <br />
 

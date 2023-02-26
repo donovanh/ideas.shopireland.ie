@@ -43,7 +43,7 @@ p,
 a {
   color: #1D5BE1;
   text-decoration: none;
-  transition: all 0.25s ease-out;
+  transition: color 0.25s ease-out;
 }
 a:hover {
   color: rgb(0, 81, 255) !important;
@@ -121,14 +121,18 @@ pre {
 
 /* Header */
 header {
-  display: inline-block;
+  display: block;
   width: 100%;
+  font-weight: normal;
+  z-index: 10;
+  margin: 0 auto;
+  max-width: 56rem;
 }
 .logo {
-  padding: 20px 0 0 20px;
-  float: left;
+  padding: 20px 0 0;
   margin: 0;
   font-size: 2em;
+  font-family: 'Avenir Next Regular', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .logo :link:not(:hover) {
   text-decoration: none;
@@ -136,42 +140,18 @@ header {
 .logo a {
   color: #444;
   font-style: italic;
-  font-family: 'Avenir Next Regular', Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  padding-right: 6px;
 }
-.logo a span {
-  color: #000;
-}
-.logo a:hover span {
-  color: rgb(11, 35, 116);
-}
-
-/* Nav */
-.header-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-.nav {
-  padding: 20px 20px 0;
-  list-style: none;
-  float: right;
-  margin-left: 1em;
-}
-@media only screen and (max-width: 560px) {
-  .nav {
-    display: none;
-  }
-}
-.nav-item {
+.logo-by {
   display: inline-block;
-  margin-right: 1em;
+  font-size: 16px;
+  color: #aaa;
+  font-weight: light;
 }
-.nav-item a[href]:not(:hover) {
-  text-decoration: none;
-}
-.nav-item-active {
-  font-weight: 700;
-  text-decoration: underline;
+.shopireland-link {
+  color: #333;
+  font-size: 16px;
+  font-style: normal !important;
 }
 
 /* Posts list (on home and archive pages) */
@@ -206,11 +186,11 @@ header {
 }
 
 .postlist-item img {
-  animation: slide-up 1.5s cubic-bezier(0,1,.4,1);
+  animation: slide-up .5s cubic-bezier(0,1,.4,1);
 }
 
 .postlist-item .text {
-  animation: slide-up 2s cubic-bezier(0,1,.4,1);
+  animation: slide-up 1s cubic-bezier(0,1,.4,1);
   padding: 1rem;
   height: 100%;
 }
@@ -253,7 +233,7 @@ header {
 }
 
 .featured-item h2 {
-  animation: slide-up 0.75s cubic-bezier(0,1,.4,1);
+  animation: slide-up 0.25s cubic-bezier(0,1,.4,1);
   font-size: 36px;
   line-height: 42px;
   margin-top: 0;
@@ -261,7 +241,7 @@ header {
 }
 
 .featured-item .postlist-image {
-  animation: slide-up 1.25s cubic-bezier(0,1,.4,1);
+  animation: slide-up .5s cubic-bezier(0,1,.4,1);
   display: block;
   height: 250px;
   margin-right: 2.5%;
@@ -323,19 +303,18 @@ header {
 
 /* Post styles */
 
+header {
+  display: block;
+  max-width: 700px;
+  position: relative;
+  margin: 0 auto;
+}
+
+
 .post-wrapper {
   max-width: var(--maxWidth);
   margin: 0 auto;
   z-index: 0;
-}
-
-.post-wrapper .image {
-  height: 125px;
-  width: 125px;
-  opacity: 0.25;
-  pointer-events: none;
-  margin: 0 0 -20px -10px;
-  z-index: -1;
 }
 
 @media only screen and (max-width: 500px) {
@@ -350,16 +329,16 @@ header {
 }
 
 .post-content {
-  animation: slide-up 1.4s cubic-bezier(0,1,.4,1);
+  animation: slide-up .4s cubic-bezier(0,1,.4,1);
   padding-top: 1rem;
   position: relative;
   z-index: 10;
 }
 
 .post-title {
-  animation: slide-up 1s cubic-bezier(0,1,.4,1);
+  animation: slide-up .3s cubic-bezier(0,1,.4,1);
   position: relative;
-  font-size: 48px;
+  font-size: 2rem;
   margin: 0;
   z-index: 2;
 }
@@ -644,7 +623,7 @@ h1:hover .direct-link, h2:hover .direct-link, h3:hover .direct-link, h4:hover .d
 }
 @keyframes slide-up {
   from {
-    transform: translateY(30px);
+    transform: translateY(10px);
   }
   to {
     translate: none;
