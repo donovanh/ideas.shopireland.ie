@@ -1,11 +1,11 @@
 :root {
-  --red: #C5004A;
-  --darkred: #7F0036;
+  --red: #c5004a;
+  --darkred: #7f0036;
   --lightgray: #e0e0e0;
-  --gray: #C0C0C0;
+  --gray: #c0c0c0;
   --darkgray: #333;
-  --navy: #17050F;
-  --blue: #1D5BE1;
+  --navy: #17050f;
+  --blue: #1d5be1;
   --white: #fff;
   --maxWidth: 700px;
 }
@@ -15,7 +15,8 @@
 html,
 body {
   margin: 0;
-  font-family: 'Avenir Next Regular', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Avenir Next Regular", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: #333;
@@ -25,7 +26,10 @@ body {
   max-width: 56em;
 }
 
-h1, h2, h3, strong {
+h1,
+h2,
+h3,
+strong {
   font-family: Avenir Next Bold, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 p:last-child {
@@ -36,12 +40,13 @@ p,
   line-height: 1.66;
 }
 @media only screen and (max-width: 560px) {
-  p, .tmpl-post li  {
+  p,
+  .tmpl-post li {
     font-size: 16px;
   }
 }
 a {
-  color: #1D5BE1;
+  color: #1d5be1;
   text-decoration: none;
   transition: color 0.25s ease-out;
 }
@@ -66,7 +71,10 @@ table th {
 
 pre,
 code {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono",
+    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
+    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
+    "Courier New", Courier, monospace;
   line-height: 1.5;
 }
 pre {
@@ -85,7 +93,7 @@ pre {
   -ms-hyphens: none;
   hyphens: none;
   padding: 1em;
-  margin: .5em 0;
+  margin: 0.5em 0;
   background-color: #f6f6f6;
 }
 .highlight-line {
@@ -93,6 +101,9 @@ pre {
   padding: 0.125em 1em;
   text-decoration: none; /* override del, ins, mark defaults */
   color: inherit; /* override del, ins, mark defaults */
+}
+img {
+  max-width: 100%;
 }
 
 /* allow highlighting empty lines */
@@ -110,7 +121,7 @@ pre {
 }
 .highlight-line-active {
   background-color: #444;
-  background-color: hsla(0, 0%, 27%, .8);
+  background-color: hsla(0, 0%, 27%, 0.8);
 }
 .highlight-line-add {
   background-color: #45844b;
@@ -132,7 +143,8 @@ header {
   padding: 20px 0 0;
   margin: 0;
   font-size: 2em;
-  font-family: 'Avenir Next Regular', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Avenir Next Regular", Helvetica Neue, Helvetica, Arial,
+    sans-serif;
 }
 .logo :link:not(:hover) {
   text-decoration: none;
@@ -154,6 +166,61 @@ header {
   font-style: normal !important;
 }
 
+/* posts  */
+
+/* polaroid photos */
+
+.polaroid {
+  background: rgb(243, 243, 246);
+  background: linear-gradient(
+    60deg,
+    rgb(248, 246, 244) 0%,
+    rgb(255, 255, 255) 35%,
+    rgb(255, 250, 250) 100%
+  );
+  box-shadow: 1em 1em 2em 0.25em rgba(0, 0, 0, 0.2);
+  border-radius: 0.5em;
+  margin: 2em auto;
+  max-width: 600px;
+  padding: 1em;
+  padding-bottom: 3em;
+  position: relative;
+  opacity: 0;
+  transform: translateX(-5em) translateY(-2em) rotateZ(2deg);
+  transition: transform 2s 0.25s cubic-bezier(0, 1.25, 0, 1),
+    opacity 0.3s 0.25s ease-out;
+  width: 90%;
+  will-change: transform, opacity;
+}
+
+.polaroid img {
+  opacity: 0;
+  transition: opacity 4s 0.25s ease-out;
+}
+
+.polaroid.is-visible {
+  opacity: 1;
+  transform: rotateZ(-2deg);
+}
+
+.polaroid.is-visible img {
+  opacity: 1;
+}
+
+.polaroid .caption {
+  color: #005;
+  font-family: "Kalam", cursive;
+  position: absolute;
+  bottom: 1em;
+  left: 0.25em;
+  right: 0.25em;
+  text-align: center;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 /* Posts list (on home and archive pages) */
 .postlist {
   list-style: none;
@@ -164,9 +231,9 @@ header {
 }
 .postlist-item {
   height: 240px;
-  width: calc(50% - .5rem);
+  width: calc(50% - 0.5rem);
   flex-shrink: 0;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 @media only screen and (max-width: 500px) {
@@ -186,11 +253,11 @@ header {
 }
 
 .postlist-item img {
-  animation: slide-up .5s cubic-bezier(0,1,.4,1);
+  animation: slide-up 0.5s cubic-bezier(0, 1, 0.4, 1);
 }
 
 .postlist-item .text {
-  animation: slide-up 1s cubic-bezier(0,1,.4,1);
+  animation: slide-up 1s cubic-bezier(0, 1, 0.4, 1);
   padding: 1rem;
   height: 100%;
 }
@@ -225,7 +292,9 @@ header {
 .featured-item {
   display: flex;
   width: 100%;
+  overflow: hidden;
 }
+
 @media only screen and (max-width: 500px) {
   .featured-item {
     display: block;
@@ -233,7 +302,7 @@ header {
 }
 
 .featured-item h2 {
-  animation: slide-up 0.25s cubic-bezier(0,1,.4,1);
+  animation: slide-up 0.25s cubic-bezier(0, 1, 0.4, 1);
   font-size: 36px;
   line-height: 42px;
   margin-top: 0;
@@ -241,7 +310,7 @@ header {
 }
 
 .featured-item .postlist-image {
-  animation: slide-up .5s cubic-bezier(0,1,.4,1);
+  animation: slide-up 0.5s cubic-bezier(0, 1, 0.4, 1);
   display: block;
   height: 250px;
   margin-right: 2.5%;
@@ -263,7 +332,7 @@ header {
 }
 
 .featured-item .text {
-  animation: slide-up 1.5s cubic-bezier(0,1,.4,1);
+  animation: slide-up 1.5s cubic-bezier(0, 1, 0.4, 1);
   font-size: 22px;
   position: relative;
   padding: 1rem;
@@ -288,7 +357,7 @@ header {
 
 @media only screen and (max-width: 500px) {
   .post-footerlist .postlist-item {
-    width: 100%
+    width: 100%;
   }
 }
 
@@ -310,7 +379,6 @@ header {
   margin: 0 auto;
 }
 
-
 .post-wrapper {
   max-width: var(--maxWidth);
   margin: 0 auto;
@@ -329,20 +397,19 @@ header {
 }
 
 .post-content {
-  animation: slide-up .4s cubic-bezier(0,1,.4,1);
+  animation: slide-up 0.4s cubic-bezier(0, 1, 0.4, 1);
   padding-top: 1rem;
   position: relative;
   z-index: 10;
 }
 
 .post-title {
-  animation: slide-up .3s cubic-bezier(0,1,.4,1);
+  animation: slide-up 0.3s cubic-bezier(0, 1, 0.4, 1);
   position: relative;
   font-size: 2rem;
   margin: 0;
   z-index: 2;
 }
-
 
 @media only screen and (max-width: 500px) {
   .post-title {
@@ -413,38 +480,38 @@ footer {
 /* Sharing icons */
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
-  display: inline-block
+  display: inline-block;
 }
 
 .resp-sharing-button__link {
   text-decoration: none;
   color: #fff;
-  margin: 0.5em
+  margin: 0.5em;
 }
 
 .resp-sharing-button {
   border-radius: 5px;
   transition: 25ms ease-out;
   padding: 0.5em 0.75em;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .resp-sharing-button__icon svg {
   width: 1em;
   height: 1em;
   margin-right: 0.4em;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .resp-sharing-button--small svg {
   margin: 0;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 /* Non solid icons get a stroke */
 .resp-sharing-button__icon {
   stroke: #fff;
-  fill: none
+  fill: none;
 }
 
 /* Solid icons get a fill */
@@ -455,18 +522,18 @@ footer {
 
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
-  display: inline-block
+  display: inline-block;
 }
 
 .resp-sharing-button__link {
   text-decoration: none;
   color: #fff;
-  margin: 0.5rem
+  margin: 0.5rem;
 }
 
 @media only screen and (max-width: 500px) {
   .resp-sharing-button__link {
-    margin: 0.4rem
+    margin: 0.4rem;
   }
 }
 
@@ -474,7 +541,7 @@ footer {
   border-radius: 5px;
   transition: 25ms ease-out;
   padding: 0.5em 0.75em;
-  font-family: Avenir Next Regular, Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: Avenir Next Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -482,37 +549,37 @@ footer {
   width: 1em;
   height: 1em;
   margin-right: 0.4em;
-  vertical-align: top
+  vertical-align: top;
 }
 
 .resp-sharing-button--small svg {
   margin: 0;
-  vertical-align: middle
+  vertical-align: middle;
 }
 
 /* Non solid icons get a stroke */
 .resp-sharing-button__icon {
   stroke: #fff;
-  fill: none
+  fill: none;
 }
 
 /* Solid icons get a fill */
 .resp-sharing-button__icon--solid,
 .resp-sharing-button__icon--solidcircle {
   fill: #fff;
-  stroke: none
+  stroke: none;
 }
 
 .resp-sharing-button--twitter {
-  background-color: #55acee
+  background-color: #55acee;
 }
 
 .resp-sharing-button--twitter:hover {
-  background-color: #2795e9
+  background-color: #2795e9;
 }
 
 .resp-sharing-button--facebook {
-  background-color: #3b5998
+  background-color: #3b5998;
 }
 
 .resp-sharing-button--facebook:hover {
@@ -521,11 +588,11 @@ footer {
 }
 
 .resp-sharing-button--email {
-  background-color: #777
+  background-color: #777;
 }
 
 .resp-sharing-button--email:hover {
-  background-color: #5e5e5e
+  background-color: #5e5e5e;
 }
 
 .resp-sharing-button--facebook {
@@ -569,7 +636,10 @@ footer {
   transition: opacity 0.3s ease-out;
 }
 
-h1:hover .direct-link, h2:hover .direct-link, h3:hover .direct-link, h4:hover .direct-link {
+h1:hover .direct-link,
+h2:hover .direct-link,
+h3:hover .direct-link,
+h4:hover .direct-link {
   opacity: 0.5;
 }
 
@@ -596,19 +666,25 @@ h1:hover .direct-link, h2:hover .direct-link, h3:hover .direct-link, h4:hover .d
 
 /*@import url("//fast.fonts.net/t/1.css?apiType=css&projectid=b18b286e-c3ca-4571-bad1-73fd6e67b6a6");*/
 
-@font-face{
-    font-family:"Avenir Next Regular";
-    src:url("/css/fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"),url("/css/fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff");
+@font-face {
+  font-family: "Avenir Next Regular";
+  src: url("/css/fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2")
+      format("woff2"),
+    url("/css/fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff");
 }
 
-@font-face{
-    font-family:"Avenir Next Italic";
-    src:url("/css/fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2") format("woff2"),url("/css/fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff") format("woff");
+@font-face {
+  font-family: "Avenir Next Italic";
+  src: url("/css/fonts/7377dbe6-f11a-4a05-b33c-bc8ce1f60f84.woff2")
+      format("woff2"),
+    url("/css/fonts/92b66dbd-4201-4ac2-a605-4d4ffc8705cc.woff") format("woff");
 }
 
-@font-face{
-    font-family:"Avenir Next Bold";
-    src:url("/css/fonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2") format("woff2"),url("/css/fonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff") format("woff");
+@font-face {
+  font-family: "Avenir Next Bold";
+  src: url("/css/fonts/14c73713-e4df-4dba-933b-057feeac8dd1.woff2")
+      format("woff2"),
+    url("/css/fonts/b8e906a1-f5e8-4bf1-8e80-82c646ca4d5f.woff") format("woff");
 }
 
 /* Animations */

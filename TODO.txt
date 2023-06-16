@@ -1,9 +1,30 @@
 ## Plan
 
+- Nicer picture treatments - load / show on scroll - maybe as a data widget?
 - Set up with 11ty 2
 - Tidy styling
 - Create snippet generator scripts for a given list of ASINs
 - Revisit mailing list idea (Beehiiv?)
+
+
+Sisu
+
+- About a concept more than a story about one person 
+- Some history of the context behind the movie: https://collider.com/sisu-true-story-explained/
+
+Todo:
+
+- movie plot summary
+- my take on the message
+- conclusion
+- set up a star rating widget/data template
+- higlight movie embed at top https://www.youtube.com/watch?v=d2k4QAItiSA
+
+- No matter how much he gets beaten, shot, drowned, hanged, and more, he keeps on getting back up. In this way, this movie is less about one superhero-level individual, but instead 
+a celebration of the spirit of *sisu*. 
+- The baddies, Nazis, are cartoonishly evil
+- Unflinchingly gory and violent, but in a way that is a load of fun
+- 
 
 ## Other tasks:
 
@@ -12,7 +33,6 @@
 - Redesign product callouts
 - Optimise social metadata
 
-April 2022
 - Autism Acceptance Month 
 - Book of the month 
 - Movie of the month 

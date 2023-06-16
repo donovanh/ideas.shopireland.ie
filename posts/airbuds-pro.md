@@ -2,7 +2,9 @@
 title: Airbuds Pro (2nd Gen) Review
 description: Apple AirPods Pro 2 are a solid choice for anyone looking for high-quality wireless earbuds with noise-cancelling and spatial audio features.
 date: 2023-02-22
-tags: review, electronics
+tags:
+  - reviews
+  - electronics
 layout: layouts/post.njk
 headerImage: airpods.jpg
 intro: An exceptional pair of wireless earbuds that provide a premium audio experience.
@@ -20,7 +22,6 @@ The following is extended from a review of the first generation Airpods Pro. The
     image: "https://m.media-amazon.com/images/I/2110TEYPKnL._SL500_.jpg"
     action: "Pick up a set!"
 %}
-
 
 ## First impressions
 

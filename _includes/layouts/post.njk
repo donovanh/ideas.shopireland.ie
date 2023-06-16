@@ -35,7 +35,9 @@ templateClass: tmpl-post
       </a>
     </div>
 
-    <p>{{ intro | safe }}</p>
+    {% if intro %}
+      <p>{{ intro }}</p>
+    {% endif %}
 
     {% if headerVideo %}
     <div class="video">

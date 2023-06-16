@@ -2,8 +2,7 @@
 title: 20 amazing free things you can find and do online
 description: A description that will show as subtitle and also on social sharing
 date: 2020-07-19
-tags:
-	- How-To Guides
+tags: how-to
 layout: layouts/post.njk
 headerImage: staring-out-window.jpg
 ---

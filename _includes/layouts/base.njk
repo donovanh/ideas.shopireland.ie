@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="description" content="{{ renderData.description or description or metadata.description }}">
-    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/index.css?v=1234' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   
     <meta property="og:title" content="{{ renderData.title or title or metadata.title }} - Ideas from Shop Ireland">
@@ -14,6 +14,9 @@
     <meta property="og:url" content="{{ metadata.url | url }}{{ page.url | url }}">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="page-container">
@@ -24,7 +27,6 @@
           <a class="shopireland-link" href="https://www.shopireland.ie">shop<strong>ireland</strong>.ie</a>
         </h1>
       </header>
-      
 
       <br />
 
@@ -39,6 +41,11 @@
       </footer>
     </div>
   </body>
+  {% if customJS %}
+      {% for JSFile in customJS %}
+        <script src="/js/{{ JSFile }}.js"></script>
+      {% endfor %}
+    {% endif %}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-G943LSTDL1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
